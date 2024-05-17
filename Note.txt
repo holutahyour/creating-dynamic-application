@@ -1,0 +1,27 @@
+Creating Dynamic Application
+
+The application uses an N-tier archetecture, This architecture separates the application into different layers, each with a specific responsibility, promoting separation of concerns and making the application easier to manage, test, and scale.
+
+Presentation Layer:
+
+Responsible for presenting the user interface and handling user interactions.
+
+
+Application Layer:
+
+- Contains the business logic of the application.
+- Coordinates between the Presentation Layer and the Domain Layer.
+- Provides services to the Presentation Layer and handles use cases.
+
+
+Domain Layer:
+
+- Represents the core business logic and rules.
+- Contains the domain entities, value objects, and domain services.
+- Isolated from other layers to ensure that business rules are centralized and reusable.
+
+Data Access Layer (Repository Layer):
+
+Manages data storage and retrieval.
+Contains repositories and data mappers to interact with the database.
+Responsible for abstracting the database access details.
